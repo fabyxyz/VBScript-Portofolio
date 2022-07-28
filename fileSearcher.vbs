@@ -1,3 +1,6 @@
+'This scrips checks if a file exists in a folder and if it does it will open it.
+'Make sure the folder with your files is in the same directory with the script and is named "Files".
+
 Option Explicit
 Dim fso : Set fso = CreateObject("Scripting.FileSystemObject")
 Dim shell : Set shell = CreateObject("WScript.Shell")
